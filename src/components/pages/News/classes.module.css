@@ -1,0 +1,21 @@
+.main {
+    padding: 75px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+
+    max-width: 1280px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px,315px));
+    grid-gap: 67px;
+}
+
+
+

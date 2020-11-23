@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 315px;
+}
+
+.cardImage {
+    position: relative;
+    overflow: hidden;
+    width: 315px;
+    height: 163px;
+    border-radius: 10px;
+}
+
+.cardImage > img {
+    left: 0;
+    top: 0;
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+}
+
+.cardContent {
+    text-align: justify;
+}
+
+
